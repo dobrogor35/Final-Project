@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#landing {
+  color: #243e63;
+  font: 16px;
+  padding: 32px;
+}
+
+
+
+
+.row {
+  /* color: #7342d6; */
+  font: 16px;
+   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+  color: #243e63;
+  padding: 32px;
+}
+
+.row nav__row {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  /* width: 100%; */
+  height: auto;
+}
+
+
+
+/* 
+
+LANDING 
+
+*/
+
+.container {
+  /* width: 40%; */
+  padding: 96px 0;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  /* justify-content: space-between; */
+  color: #243e63;
+}
+
+.nav__logo--title {
+  font: 24px;
+  margin: 12px;
+  padding: 2px
+}
+
+
+.nav__linkls {
+  color: #243e63;
+  padding: 2px
+  font 16px;
+} 
+
+.nav__link {
+  text-decoration: none;
+  font-size: 20px;
+  color: #243e63;
+  font: 14px;
+  margin: 24px;
+  padding: 4px;
+}
+
+.nav__link--login {
+  font: 14px;
+  margin: 0 24px 0 48px;
+  padding: 4px;
+  text-decoration: none;
+}
+
+.nav__link--primary{
+  font: 14px;
+  margin: 2px;
+  padding: 10px 32px; 
+  color: white;
+}
+
+
+
+.header__description {
+  margin: 40%;
+}
+
+.header__img {
+  max-width: 60%;
+}
+
+.header_img--wrapper {
+  /* margin: 60%; */
+  font: 16px; 
+}
