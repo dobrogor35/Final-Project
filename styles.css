@@ -20,6 +20,7 @@ nav {
 .menu {
   display: none; 
 }
+
 .menu {
   position: fixed;
   top: 0;
@@ -181,6 +182,14 @@ h4 {
   opacity: 0;
 }
 
+.nav__link:hover {
+  color: #6415ff;
+}
+
+.nav__link:hover:after {
+  opacity: 1;
+}
+
 .login {
   margin-left: 48px;
 }
@@ -273,11 +282,6 @@ header .row {
   bottom: 0;
   z-index: 1;
   transition: border-color 300ms;
-  transition-behavior: normal;
-    transition-duration: 300ms;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: border-color;
 }
 
 
@@ -297,8 +301,8 @@ header .row {
 
 
 .header__customers {
-  margin-top: 80pxpx;
-  padding-right: 128px;
+  margin-top: 80px;
+  /* padding-right: 128px; */
   opacity: 0.5;
 }
 
@@ -307,7 +311,7 @@ header .row {
   color: #a0aec0;
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.6;
+  letter-spacing: 0.6px;
 }
 
 .header__customers--img {
