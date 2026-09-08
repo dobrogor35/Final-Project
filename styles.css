@@ -1090,17 +1090,17 @@ body {
     opacity: 0.5;
 }
 
-.links {
+/* .links {
 display: flex;
 flex-wrap: wrap;
-}
+} */
 
-.link {
+/* .link {
 display: flex;
 flex-direction: column;
 width: calc(100%/5);
 align-items: center;
-}
+} */
 
 .footer__info {
 display: flex;
