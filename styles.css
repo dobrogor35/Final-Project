@@ -705,6 +705,7 @@ PRICING
 
 .plans {
   display: flex;
+  position: relative;
 }
 
 .plans__blob {
