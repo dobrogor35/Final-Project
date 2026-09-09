@@ -1057,6 +1057,10 @@ path[Attributes Style] {
     fill: rgb(80, 17, 204);
 }
 
+.start__blob--1,
+.start__blob--2 {
+  position: absolute;
+}
 /* 
 
 FOOTER 
