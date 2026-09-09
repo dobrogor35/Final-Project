@@ -24,6 +24,13 @@ nav {
   display: flex;
 }
 
+.row__narrow {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+
 .container {
   padding: 96px 0;
 }
@@ -395,6 +402,8 @@ header .row {
 FEATERUS 
 
 */
+
+
 
 .feature__row {
   display: flex;
